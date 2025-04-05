@@ -1,0 +1,482 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+div{
+    height: 30px;
+    margin-top: 15px;
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    
+}
+.button1{
+    color: white;
+    background-color: black;
+    width: 30vw;
+    height: 4vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.google{
+    background-color:darkgrey;
+    color: black;
+    width: 30vw;
+    height: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Apple{
+    background-color:darkgrey;
+    color: black;
+    width: 30vw;
+    height: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec{
+    color: black;
+    margin-bottom: 100px;
+}
+.text1{
+    margin-top: -0px;
+}
+.email{
+    margin-top: 50px;
+    width: 30vw;
+    height: 4vh;
+}
+.search-input1{
+    width: 30vw;
+    height: 4vh;
+}
+h1{
+    font-size: 3em;
+}
+.or{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.button1{
+    background-color:black;
+    text-decoration: none;
+    border: none;
+    color: white;
+}
+.button2{
+    background-color: darkgray;
+    text-decoration: none;
+    border: none;
+    color: black;
+}
+/* .logo{
+    background-color: aqua;
+    background-image: url("campus\ bites\ final\ logo.jpg");
+    background-size: cover;
+    height: 280px;
+    width: 300px;
+} */
+.first{
+    margin-top: 15px;
+}
+.last{
+    margin-top: 30px;
+}
+.box2{
+    /* background-color: rgb(254, 250, 224); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* padding: 100px; */
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -3px;
+    padding-bottom: 220px;
+
+}
+.navbar{
+    width: 100vw;
+    margin: 0 auto;
+    height: 20vh;
+    /* margin: 0;
+    padding: 0; */
+    background-color: black;
+    color: white;
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    padding: 0;
+
+}
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+.list li a{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+.list{
+    display: flex;
+    gap: 20px;
+    font-size: 1.3em;
+}
+.navlogo{
+    /* font-size: 32px;
+    font-weight: 600;
+    background-image: url("final2logo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 150px;
+    width: 159px;
+    margin-right: 200px;
+    border: 2px solid transparent;
+    border-radius: 29%;
+    margin-top: 15px;
+    padding-top: 15px; */
+    margin-bottom: 50px;
+
+}
+.nav-search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-size: 3em; */
+}
+.search-icon{
+    background-color: white;
+    color: black;
+    font-size: 1.2em;
+    margin-left: -35px;
+    margin-top: 26px;
+}
+.search-select{
+    font-size: 1.5em;
+    margin-top: 14px;
+    color: black;
+}
+.bar{
+    font-size: 1.5em;
+    /* width: 50vw; */
+}
+.search-select{
+    /* border-radius: 6px; */
+    /* background-color: ; */
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    /* border: 3px solid rgb(233, 237, 201); */
+    border: none;
+    color: black;
+}
+.search-input{
+    font-size: 1em;
+    width: 550px;
+    /* border-radius: 15%; */
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    /* border: 3px solid rgb(233, 237, 201); */
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+nav li{
+    border-bottom: 2px solid transparent;
+    transition: o.2s ease-in;
+}
+nav li:hover{
+    border-bottom: 2px solid white;
+    transition: 0.2s ease ease-in;
+}
+header{
+    position: sticky;
+    top:0;
+    z-index: 100;
+    /* box-shadow: 5px 5px 5px black; */
+}
+.background{
+    width: 100vw;
+    height: 80vh;
+    /* background-color:rgba(233, 237, 201); */
+    display: flex;
+    margin-top: -50px;
+}
+.order{
+    margin-left: 50px;
+    margin-top: 100px;
+}
+.photo1{
+    height:87vh ;
+    width: 60vw;
+    background-image: url("burger.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: -50px;
+    padding-top: 50px;
+    margin-left: 170px;
+}
+.heading{
+    margin-top: 30px;
+    margin-left: 120px;
+    font-size: 1.5em;
+}
+.order{
+margin-left: 160px;
+font-size: 1.6em;
+border: none;
+/* background-color: rgb(251, 135, 85); */
+/* background-color: rgb(254, 250, 224); */
+margin-top: 170px;
+/* border: 2px solid ; */
+border-radius: 30%;
+}
+.box4{
+    /* background-color: rgb(250, 237, 205); */
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom:550px;
+}
+.phonebooth{
+    display: flex;
+    gap:15px;
+}
+.x{
+    background-image: url("food1.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 415px;
+}
+.p{
+    background-image: url("food2.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 200px;
+}
+.q{
+    background-image: url("food3.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 200px;
+    /* margin-top: -5px; */
+}
+.y{
+    display: flex;
+    gap: 15px;
+}
+.r{
+    background-image: url("food4.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 400px;
+}
+.s{
+    background-image: url("food5.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 264px;
+    width: 400px;
+    /* margin-top: 15px; */
+}
+.t{
+    background-image: url("food5.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 520px;
+    width: 400px;
+}
+.menu{
+    font-size: 2em;
+    background-color:rgb(251, 135, 85);
+}
+/* .b{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+} */
+ .end{
+    display: flex;
+    background-color: black;
+    color: white;
+    width: 100vw;
+    height: 45vh;
+    justify-content: space-evenly;
+ }
+ .logos{
+    display: flex;
+    gap: 15px;
+ }
+ /* .firstone{
+    margin-right: 300px;
+ } */
+ .navigation{
+    display: flex;
+    flex-direction: column;
+    /* margin-right: 500px;
+    gap: -10px; */
+ }
+ .finallogo{
+    background-image: url("final2logo.jpg");
+    height: 230px;
+    width: 230px;
+    background-size: cover;
+    margin-bottom: 15px;
+ }
+ .end2{
+    display: flex;
+    color: white;
+    background-color: rgb(24, 23, 26);
+    width: 100vw;
+    height: 8vh;
+    justify-content: space-between;
+    /* gap: 600px; */
+ }
+ .lol{
+    margin-top: -20px;
+ }
+ .one1{
+    margin-left: 35px;
+ }
+.bites{
+    margin-right: 40px;
+}
+.scanner{
+    display: flex;
+    width: 100vw;
+    height: 60vh;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 300px;
+    background-color: black;
+    color: white;
+    /* margin-bottom: 50px; */
+    margin-top: -10px;
+}
+.swiggy{
+    display: flex;
+    /* flex-direction: column;
+    justify-content: space-evenly; */
+    margin-bottom: 70px;
+}
+.scanphoto{
+    background-image: url("finalscan.png");
+    height: 300px;
+    width: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+    margin-top: 300px;
+}
+.get{
+    margin-top: 110px;
+    font-size: 1.2em;
+}
+.logo3{
+    background-image: url("campus\ bites\ final\ logo.jpg");
+    height: 100px;
+    width: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 25%;
+    margin-right: 15px;
+}
+.name1{
+    margin-top: 60px;
+    font-size: 1.5em;
+}
+.for{
+    margin-top: 70px;
+}
+.div33{
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    /* margin-bottom: 300px; */
+    margin-top: 70px;
+}
+h3{
+    font-size:2em;
+}
+.divonelogo{
+    background-image: url("coupon.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+    margin-right: 5px;
+}
+.divone,.divtwo,.divthree{
+    display: flex;
+}
+.divtwologo{
+    background-image: url("fooddiv.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+    margin-right: 5px;
+}
+.divthreelogo{
+    background-image: url("delviery.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+    margin-right: 5px;
+}
+/* .burger{
+    background-image: url("cuteburger.png");
+    height: 150px;
+    width: 150px;
+    background-size: cover;
+    background-position: center;
+    margin-right: 5000px;
+} */
